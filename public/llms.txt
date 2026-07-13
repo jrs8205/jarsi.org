@@ -1,0 +1,25 @@
+# jrs8205 — Developer
+
+> Personal site of jrs8205, a developer building open-source Android apps,
+> Windows tools, Shopify themes and Pebble watchfaces.
+> GitHub: https://github.com/jrs8205
+
+## Projects
+
+- [ARK-launcher](https://github.com/jrs8205/ARK-launcher): A modern open-source Android launcher built with Jetpack Compose and Material 3. Customizable and bilingual (English/Finnish).
+- [Computer-App](https://github.com/jrs8205/Computer-App): Windows 11 hardware monitor with plain-language logging, risk analysis, post-crash forensics and a machine-readable insights file. WPF / .NET 8.
+- [Device-Watch](https://github.com/jrs8205/Device-Watch): Fully offline Android device monitor with a home-screen widget, per-app usage insights and a charging screensaver. No internet permission.
+- [BetaScout](https://github.com/jrs8205/BetaScout): Finds and tracks Google Play beta programs for your installed Android apps.
+- [Valor-Theme](https://github.com/jrs8205/Valor-Theme): Premium Shopify Online Store 2.0 theme for fashion, jewelry and accessories brands.
+- [Aikapaneeli](https://github.com/jrs8205/aikapaneeli): Finnish-language watchface for Pebble Time 2 with steps, battery and dynamic colors.
+- [More repositories](https://github.com/jrs8205?tab=repositories)
+
+## Other sites
+
+- [AlfaJewelry](https://alfajewelry.com/): A collection of premium jewelry brand domain names available for purchase, with matching EU and Finnish trademarks.
+- [Valor Theme](https://valortheme.com/): Free premium Shopify theme built for brands where presentation matters — jewelry, accessories, fashion, watches and beauty.
+- [Arkikeskus](https://arkikeskus.com/): Free, ad-free Finnish Android app that brings weather, news, transit, traffic and electricity prices into one view.
+
+## Contact
+
+- GitHub: https://github.com/jrs8205

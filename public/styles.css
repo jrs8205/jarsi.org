@@ -177,6 +177,14 @@ a:hover {
   color: var(--text-muted);
 }
 
+.footer-sites {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 20px;
+  margin-bottom: 12px;
+}
+
 /* Mobile */
 
 @media (max-width: 480px) {
