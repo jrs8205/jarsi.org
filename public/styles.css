@@ -7,7 +7,7 @@
   --divider: #101a2a;
   --text: #e8edf4;
   --text-muted: #9fb0c3;
-  --text-dim: #5b6c80;
+  --text-dim: #8296ad;
   --accent: #4da6ff;
   --gradient: linear-gradient(90deg, #1e90ff, #00bfff);
 }
@@ -175,6 +175,8 @@ a:hover {
 
 .footer a {
   color: var(--text-muted);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .footer-sites {
