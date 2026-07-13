@@ -1,0 +1,11 @@
+{
+  "name": "jarsi-org",
+  "compatibility_date": "2026-05-14",
+  "assets": {
+    "directory": "./public"
+  },
+  "routes": [
+    { "pattern": "jarsi.org", "custom_domain": true },
+    { "pattern": "www.jarsi.org", "custom_domain": true }
+  ]
+}
