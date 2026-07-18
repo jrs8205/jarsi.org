@@ -146,21 +146,38 @@
       gap: 16px;
     }
 
-    .project-card a {
-      display: block;
-      height: 100%;
+    .project-card {
+      display: flex;
+      flex-direction: column;
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 10px;
-      padding: 18px;
-      color: inherit;
       transition: border-color 0.15s ease, transform 0.15s ease;
     }
 
-    .project-card a:hover {
-      text-decoration: none;
+    .project-card:hover {
       border-color: var(--accent);
       transform: translateY(-2px);
+    }
+
+    .project-card > a {
+      display: block;
+      flex: 1;
+      padding: 18px;
+      color: inherit;
+    }
+
+    .project-card > a:hover {
+      text-decoration: none;
+    }
+
+    .project-card > .project-store {
+      flex: none;
+      border-top: 1px solid var(--divider);
+      padding: 10px 18px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--accent);
     }
 
     .project-head {
@@ -243,7 +260,7 @@
         "url": "https://jarsi.org/",
         "name": "jrs8205 — Developer",
         "dateCreated": "2026-07-13T21:00:00+03:00",
-        "dateModified": "2026-07-13T21:00:00+03:00",
+        "dateModified": "2026-07-18T12:00:00+03:00",
         "inLanguage": "en",
         "isPartOf": { "@id": "https://jarsi.org/#website" },
         "mainEntity": {
@@ -316,6 +333,7 @@
             </span>
             <span class="project-desc">Fully offline Android device monitor with a home-screen widget and per-app usage insights.</span>
           </a>
+          <a class="project-store" href="https://f-droid.org/packages/org.jarsi.devicewatch">Get it on F-Droid&nbsp;↗</a>
         </li>
         <li class="project-card">
           <a href="https://github.com/jrs8205/BetaScout">
